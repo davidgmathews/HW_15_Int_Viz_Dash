@@ -1,0 +1,1 @@
+web: gunicorn -b:$PORT int_viz.app:app
